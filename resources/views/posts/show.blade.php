@@ -9,10 +9,10 @@
                     <div class="col-lg-8 px-md-5 py-5">
                         <div class="row pt-md-4">
                             <div class="col-12 mb-5">
-                                <img src="{{$post->image}}" style="width: 75%" alt="" class="img-fluid">
+                                <img src="{{$post->image}}" style="width: 100%" alt="" class="img-fluid">
                             </div>
                             <h1 class="mb-3">{{$post->title}}</h1>
-                            <div class="col-6"><span>{{$post->content}}</span></div>
+                            <div class="col-12"><span>{{$post->content}}</span></div>
 
                             <div class="pt-5 mt-5">
                                 <h3 class="mb-5 font-weight-bold">{{count($post->comments)}} Comments</h3>
